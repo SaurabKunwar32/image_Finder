@@ -32,7 +32,7 @@ async function imageSearch() {
   const receiveResults = data.results;  
 
   if (page === 1) {
-    S_result.innerHTML = " ";
+    S_result.innerHTML = " ";  //we do this to remove the the images that we have added before to fix the size of the images after searching.
   }
 
 
